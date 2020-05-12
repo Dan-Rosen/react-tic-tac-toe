@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Square from './Square'
 
 const style = {
@@ -15,7 +14,7 @@ const style = {
 const Board = ({ squares, onClick }) => (
     <div style={style}>
         {squares.map((square, i) => (
-            <Square key={i} value={square} onclick={() => onClick(i)} />
+            <Square key={i} value={square} onClick={() => onClick(i)} />
         ))}
     </div>
 )

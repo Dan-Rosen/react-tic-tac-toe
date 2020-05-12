@@ -1,13 +1,6 @@
 import React from 'react'
-
 import Game from './components/Game'
 
-const App = () => {
-    return (
-        <div>
-            <Game />
-        </div>
-    )
-}
+const App = () => <Game />
 
 export default App
