@@ -1,9 +1,7 @@
 import React from 'react'
 
 const Square = ({ onClick, value }) => (
-    <div>
-        <button onClick={onClick}>{value}</button>
-    </div>
+    <button onClick={onClick}>{value}</button>
 )
 
 export default Square
